@@ -1,1 +1,1 @@
-# javaScript-library-codeAcademy
+# javaScript-project-codeAcademy
