@@ -1,0 +1,105 @@
+html,
+body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+body {
+      background-color: rgb(255, 206, 47);
+}
+#container {
+      height: 97vh;
+      position: relative;
+}
+h1 {
+      color: white;
+      font-size: 33px;
+      padding-left: 16px;
+}
+#addbook_btn {
+      height: 40px;
+      width: 130px;
+      border: none;
+      border-radius: 50px;
+      background: rgb(241, 216, 132);
+      color: white;
+      margin: 3px;
+      border: solid 2px rgb(255, 206, 47);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+}
+
+.first_shelf {
+      display: flex;
+      justify-content: center;
+}
+
+.first_shelf,
+.second_shelf,
+.third_shelf {
+      height: 31%;
+      display: flex;
+      justify-content: center;
+      color: white;
+      border-bottom: solid 1px rgb(255, 206, 47);
+      background-color: black;
+}
+.first_shelf > div,
+.second_shelf > div,
+.third_shelf > div {
+      background-color: black;
+      opacity: 0.8;
+      width: 180px;
+      height: 160px;
+      margin: 15px;
+      text-align: center;
+      border: solid 0.5px rgb(255, 206, 47);
+}
+
+.imageContainer {
+      height: 100px;
+      width: 90px;
+      margin: auto;
+}
+.imageContainer > img {
+      height: 90px;
+      width: 100px;
+}
+
+#form {
+      background-color: black;
+      height: 300px;
+      width: 250px;
+      position: absolute;
+      top: 100px;
+      right: 550px;
+
+      text-align: center;
+}
+
+form input {
+      border: none;
+      background: none;
+      border-bottom: 1px solid rgb(255, 206, 47);
+      padding-bottom: 5px;
+      margin-top: 20px;
+      color: white;
+}
+#book_title {
+      margin-top: 0px;
+}
+h4 {
+      text-align: center;
+      color: rgb(247, 250, 200);
+      font: italic 16px arial;
+      padding-top: 13px;
+}
+#submit_btn {
+      height: 25px;
+      width: 100px;
+      background: rgb(255, 206, 47);
+      border-radius: 12px;
+      margin-top: 7px;
+      border: none;
+}
